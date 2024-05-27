@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navGroup{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(115, 81, 81);
+    background-image: linear-gradient(to left, #cc9dae 0%, #e13172 100%);
+}
+
+.navGroup__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#title, #navGroup__logo {
+    background-color: black;
+    background-image: linear-gradient(to top, white 0%, lightgrey 100%);
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navGroup__logo {
+    margin-left: auto;
+}
+
+#addInvitationButton {
+    position: fixed;
+    top: center;
+    right: center;
+}
+
+
+.invitation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.invitation-bar {
+    width: 750px;
+    height: 50px;
+    margin-top: 50px;
+    border: 2px solid rgb(83, 68, 68);
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.invitation-bar p {
+    margin-right: auto;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.invitation-bar button {
+    margin-right: 25px;
+    height: 30px;
+    text-align: center;
+    line-height: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

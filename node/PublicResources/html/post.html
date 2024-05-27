@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posting</title>
+    <link rel="stylesheet" href="../css/post.css">
+</head>
+<body>
+    <ul class="sidebar">
+        <li><a href="#" onclick=hideSidebar()>x</a></li>
+        <div class="user-profile">
+            <div class="userProfile">
+                <span class="firstnameProfile"></span>
+            </div>
+            <span class="username"></span>
+        </div>
+        <li><a href="/calendar">Calendar</a></li>
+        <li><a href="/coffeebreak">Coffee break room</a></li>
+        <li><a href="/teamcohesion">Questions for team cohesion</a></li>
+        <li><a href="/groups">Group page</a></li>
+        <li><a href="/login">Log out</a></li>
+    </ul>
+
+    <header>
+        <div class="logo">Vir ☕</div>
+        <input class="search-bar" type="text" placeholder="Search">
+        <div onclick=showSidebar() class="user" type="submit" value="User">
+            <span class="firstname"></span>
+        </div>
+    </header>
+
+    <!-- posting -->
+    <h1>Write and Post</h1>
+    <div class="container">
+        <!-- 
+        <div class="post">
+            <div class="postheader">
+                <div class="user-information">
+                    <span id="username">Username</span>
+                    <span id="point">•</span>
+                    <span id="date">Date</span>
+                </div>
+                <div class="post-content">
+                <h3 id="title">Title</h3>
+                Hello there
+                <div class="tags-container">#Hi>/div>
+            </div>
+            
+        </div>
+        -->
+    
+    </div>
+    <div class="input-container">
+        <input type="text" id="textInput" placeholder="Write something..." class="text-input">
+        <button id="submitPost">Post</button>
+
+
+          <!-- reminder-bot -->
+
+        <button class="bot-toggler">
+            <span class="open">Open</span>
+            <span class="close">Close</span>
+        </button>
+        <div class="bot-reminder">
+            <div class="bot-header">
+                <h2>Reminder Bot</h2>
+                <span class="close-btn">Close</span>
+            </div>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols">:0</span>
+                    <p>Hello there, <br> for when should I set the timer? 
+                    <br>Please write it in that order: <br> April 23 2024 10:30:00</p>
+                </li>
+                
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." required></textarea>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="delete-modal">
+        <p class="delete-confirmation">Do you really want to delete the post?</p>
+        <button class="agree-button">Yes</button>
+        <button class="disagree-button">No</button>
+    </div>
+    <div id="delete-backdrop"></div>
+    
+    <script  src="../js/post.js"></script> 
+</body>
+</html>
+

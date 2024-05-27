@@ -1,0 +1,36 @@
+[
+    {
+      "username": "Lisa",
+      "password": "$2b$10$befvQmVhaXn/Ogxw/8vqmui.CBe1aLobQWv9/VPvO0lcjJbVLreCO",
+      "group": [
+        "g2",
+        "g3"
+      ],
+      "invitations": []
+    },
+    {
+      "username": "Aaron",
+      "password": "$2b$10$jmxV9NHSaHxjMvGabQqyEeZV1fqYSznmYW1WcSIgFz1OgFqdaR7wu",
+      "group": [],
+      "invitations": []
+    },
+    {
+      "username": "aj",
+      "password": "$2b$10$HmkUtEN.cu44eQdhszIpyuTC/V3CQf71oc00p9OKb0Ml6O.3eUK76",
+      "group": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "group 70000123",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "ÆÆÆÆÆÆÆÆÆÆÆÆÆ"
+      ],
+      "invitations": []
+    }
+  ]

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../css/calendar.css">
+</head>
+<body>
+    <div class="calendar">
+        <header>
+            <h3></h3>
+            <nav>
+                <button id="prev"></button>
+                <button id="next"></button>
+            </nav>
+        </header>
+        <section>
+            <div class="weekdays">
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+                <div>Sun</div>
+            </div>
+            <div class="dates"></div>
+        </section>
+
+    </div>
+    
+    
+    <div id="newEventModal">
+        <div class="todo-container">
+            <div class="todo-app">
+                <h3>To-Do List</h3>
+                <div class="row">
+                    <input type="text" id="todo-title" placeholder="Add new title">
+                    <button id="add-button">Add</button>
+                    <button id="cancel-button">Cancel</button>
+                
+                </div> 
+                <ul id="list-container"></ul>
+            </div>
+        </div>
+    </div>
+    <div id="modalBackDrop"></div>
+    
+
+    <a href="/post">back</a>
+
+    <script src="../js/calendar.js" defer></script>
+</body>
+</html>
+
+ 

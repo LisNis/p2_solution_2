@@ -1,0 +1,110 @@
+[
+    {
+      "group name": "Group 1",
+      "id": 1,
+      "title": "Hello",
+      "content": "This is my text i write for my post",
+      "username": "User 3",
+      "likes": 8,
+      "dislikes": 2,
+      "likedBy": [
+        "user1",
+        "user2"
+      ],
+      "dislikedBy": [
+        "user3"
+      ],
+      "date": "03/05/2024",
+      "timestamp": "13:13",
+      "tags": [
+        "#tags",
+        "#Jo"
+      ],
+      "comments": [
+        {
+          "user": "Alisanders",
+          "content": "This is a comment",
+          "date": "03/05/2024",
+          "timestamp": "13:13"
+        },
+        {
+          "user": "User 2",
+          "content": "This is also a comment",
+          "date": "03/05/2024",
+          "timestamp": "13:14"
+        }
+      ],
+      "pinned": false,
+      "index": 0
+    },
+    {
+      "title": "",
+      "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "username": "Lisa",
+      "date": "23/5/2024",
+      "timestamp": "22:24",
+      "tags": [],
+      "id": 1716495886229,
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [],
+      "pinned": false,
+      "likedBy": [
+        "Lisa"
+      ],
+      "dislikedBy": [],
+      "index": 0
+    },
+    {
+      "title": "Announcement",
+      "content": "Hello there ladies and gentlemen, if you want to add a title, write it in front of your text in these {} brackets.",
+      "username": "Lisa",
+      "date": "23/5/2024",
+      "timestamp": "22:47",
+      "tags": [
+        "#Announcement"
+      ],
+      "id": 1716497256864,
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [],
+      "pinned": true,
+      "likedBy": [
+        "Lisa"
+      ],
+      "dislikedBy": [],
+      "index": 0
+    },
+    {
+      "title": "",
+      "content": "Hi",
+      "username": "Lisa",
+      "date": "26/5/2024",
+      "timestamp": "13:11",
+      "tags": [],
+      "id": 1716721896106,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "pinned": false,
+      "likedBy": [],
+      "dislikedBy": [],
+      "index": 0
+    },
+    {
+      "title": "",
+      "content": "Hi",
+      "username": "Lisa",
+      "date": "27/5/2024",
+      "timestamp": "10:43",
+      "tags": [],
+      "id": 1716799430372,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "pinned": false,
+      "likedBy": [],
+      "dislikedBy": [],
+      "index": 0
+    }
+  ]

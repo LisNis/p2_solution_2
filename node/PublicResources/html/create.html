@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Team</title>
+    <link rel="stylesheet" href="../css/create.css">
+</head>
+<body>
+    <header>
+
+        <div class="back">
+            <a href="../html/groups.html">Back</a>
+        </div>
+
+    </header>
+
+    <section id="form-a-team">
+        <h1>Create a team</h1>
+        <p>Here you can create your own team</p>
+        <p>You start with a team name, and then add the members you want</p>
+    </section>
+
+    <div class="teamname">
+        <form id="team-name-form"> 
+            <input type="text" name="teamName" id="team-name-input" placeholder="Enter Team Name">
+            <button type="submit" class="btn" id="submit-team-name">Team Name</button>
+        </form>
+    </div>
+
+    
+
+    <div class="teammember">
+        <form id="team-member-form"> 
+            <input type="text" name="memberName" id="member-name-input" placeholder="Enter Member Name">
+            <button type="submit" class="btn" id="submit-member">Add Team Member</button>
+        </form>
+    </div>
+
+
+
+ <div id="team-name-container" class="team-name-container"></div>
+
+   <div id="team-members-container" class="team-members-container"></div>
+
+    <button id="confirm-team" class="btn" style="display: none;">Confirm Team</button>
+
+    <script src="../js/create.js"></script>
+</body>
+</html>

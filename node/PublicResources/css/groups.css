@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+    background: rgba(255, 223, 223, 0.89);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    font-size: 20px;
+}
+
+.firstname {
+    display: inline-block;
+    background: rgba(255, 223, 223, 0.89);
+}
+
+.user-profile {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.userProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 2px solid grey;
+    background: rgba(255, 223, 223, 0.89);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.firstnameProfile {
+    background: rgba(255, 223, 223, 0.89);
+}
+
+.search-bar {
+    width: 50%;
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.newGroup {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.invitation{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addMemberToGroup{
+    position: absolute;
+    top: 225px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    top: 350px; /* Position it below the button */
+    right: 0px; /* Center it horizontally */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+}
+
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items */
+    padding: 20px;
+    max-width: calc(100% - 300px);
+    margin-left: 20px;
+    justify-content: flex-start; /* Center the items horizontally */
+}
+
+.group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.group {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    max-width: 100%;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+li {
+    height: 50px;
+}
+
+a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: aliceblue;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.addMember {
+    background: none;
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 5px;
+    display: center;
+    position: absolute;
+    top : 200px;
+    right: 1130px;
+    left : 350px;
+    border: 1px solid #0e0d0d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:130px;
+}
+/* Add styles for the search bar */
+.search-bar-container {
+    display: flex;
+   position: absolute;
+   top : 250px;
+   right: 1130px;
+   left : 220px;
+}
+
+.search-bar-container input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #0e0d0d;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search-bar-container input[type="text"]:focus {
+    outline: none;
+    border-color: pink;
+}

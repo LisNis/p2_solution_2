@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groups</title>
+    <link rel="stylesheet" href="../css/groups.css">
+</head>
+<body>
+    <ul class="sidebar">
+        <li><a href="#" onclick="hideSidebar()">x</a></li>
+        <div class="user-profile">
+            <div class="userProfile">
+                <span class="firstnameProfile"></span>
+            </div>
+            <span class="username"></span>
+        </div>
+        <li><a href="/invitation">Invitation</a></li>
+        <li><a href="/create">Create group</a></li>
+        <li><a href="/login">Log out</a></li>
+    </ul>
+    <header>
+        <div class="logo">Vir ☕</div>
+        <input class="search-bar" type="text" placeholder="Search">
+        <div onclick="showSidebar()" class="user">
+            <span class="firstname"></span>
+        </div>
+    </header>
+    
+    <div class="newGroup">
+        <div id="create-group">Create a group</div>
+    </div>
+    <div class="groups">
+        <!-- Groups will be dynamically added here -->
+    </div>
+   
+    <div class="invitation">
+        <div id="invite">Invitation</div>
+    </div>
+
+    <div class="addMemberToGroup">
+        <div id="addMember">Add a member to a group</div>
+    </div>
+
+    <script src="../js/group.js"></script>
+</body>
+</html>
